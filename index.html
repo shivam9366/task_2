@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shivam - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Shivam's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#link">Home</a></li>
+            <li><a href="#link">About</a></li>
+            <li><a href="#link">Services</a></li>
+            <li><a href="#link">Projects</a></li>
+            <li><a href="#link">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Shivam </span>
+          <div>and I am a passionate</div>
+          <div>Web Developer</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="image.jpg" alt="Shivam Image " />
+        </div>
+      </section>
+      <div class="line_1">
+        <hr/>
+      </div>
+   
+      <section class="SecondSection">
+        <h1>Work Experience</h1>
+        <div class="first_experience">
+          <dl>
+            <h4>Take2 Technology</h4>
+            <dt>Web developer</dt>
+            <dd>
+              In this internship Lots of learning about the full stack web
+              developer and contribute the teams.
+            </dd>
+          </dl>
+        </div>
+        <div class="second_experience">
+          <dl>
+            <h4>CodSoft Technology</h4>
+            <dt>Full stack developer</dt>
+            <dd>
+              In this internship, I made many projects and learned a lot by
+              making projects.
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <div class="line_2">
+        <hr/>
+      </div>
+      <section class="ThirdSection">
+        <h1>Educational</h1>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Graphic Designer", "Problem solver", "Video Editor"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
